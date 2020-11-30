@@ -1,0 +1,26 @@
+[
+    {
+        "date": "2020-10-12",
+        "time": null,
+        "end_time": null,
+        "name": "Meet Peter at the movies"
+    },
+    {
+        "date": "2020-10-13",
+        "time": "8:00",
+        "end_time": null,
+        "name": "Discussion on climate change"
+    },
+    {
+        "date": "2020-10-15",
+        "time": "12:30",
+        "end_time": "13:00",
+        "name": "Pick up Sam at school"
+    },
+    {
+        "date": "2020-10-16",
+        "time": "12:00",
+        "end_time": "13:00",
+        "name": "Pick up Sam at school"
+    }
+]

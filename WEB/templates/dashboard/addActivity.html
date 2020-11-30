@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap-material-design.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+   
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <!-- <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a> -->
+      
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="/home">Inicio</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="/today">
+                  <span data-feather="home"></span>
+                  Hoy
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/monday">
+                  <span data-feather="file"></span>
+                  Lunes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/tuesday">
+                  <span data-feather="shopping-cart"></span>
+                  Martes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/wednesday">
+                  <span data-feather="users"></span>
+                  Miercoles
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/thursday">
+                  <span data-feather="bar-chart-2"></span>
+                  Jueves
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/friday">
+                  <span data-feather="layers"></span>
+                  Viernes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/saturday">
+                  <span data-feather="layers"></span>
+                  Sabado
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sunday">
+                  <span data-feather="layers"></span>
+                  Domingo
+                </a>
+              </li>
+            </ul>
+
+            
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            
+            
+          <form class="card mb-4" method="POST" action="/webAddActivity">
+            <div class="card-body">
+                <h4 class="card-title">
+                  <a>
+                    Crear Actividad
+                  </a>
+                </h4>
+
+                <div class="form-group">
+                    <label for ="usr"> Nombre :</label>
+                    <input type="text" class="from-control" name="actName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for ="selhours"> Prioridad :</label>
+                    <select class="from-control" name="priority" >
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                </div>
+
+                
+
+                 
+
+                  <div class="form-group">
+                  <label for ="sel1"> Hora de Inicio :</label>
+                  <select class="from-control" name="hours">
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                  </select>
+                  <select class="from-control" name="minutes">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                    <option>32</option>
+                    <option>33</option>
+                    <option>34</option>
+                    <option>35</option>
+                    <option>36</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                    <option>43</option>
+                    <option>44</option>
+                    <option>45</option>
+                    <option>46</option>
+                    <option>47</option>
+                    <option>48</option>
+                    <option>49</option>
+                    <option>50</option>
+                    <option>51</option>
+                    <option>52</option>
+                    <option>53</option>
+                    <option>54</option>
+                    <option>55</option>
+                    <option>56</option>
+                    <option>57</option>
+                    <option>58</option>
+                    <option>59</option>
+                    
+                  </select>
+                </div>
+                
+                
+                <div  class="md-form md-outline input-with-post-icon datepicker" >
+                    <input placeholder="Select date" type="date" name="actDate" class="form-control" required>
+                
+                  </div>
+                <button class="btn btn-primary btn-lg " type="submit">Crear </button>
+            </div>
+          </form>
+         
+         
+          
+          
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/static/js/vendor/popper.min.js"></script>
+    <script src="/static/js/bootstrap-material-design.min.js"></script>
+
+
+     
+      <script>
+        $('#input_starttime').pickatime({
+          darktheme : true
+        });
+      </script>
+
+    
+
+    
+  </body>
+</html>

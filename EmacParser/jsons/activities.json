@@ -1,0 +1,38 @@
+[
+    {
+        "date": "2020-05-15",
+        "time": "12:30",
+        "end_time": null,
+        "name": "Pick up Sam at school"
+    },
+    {
+        "date": "2020-08-23",
+        "time": null,
+        "end_time": null,
+        "name": "Meet Peter at the movies"
+    },
+    {
+        "date": "2020-08-28",
+        "time": "12:00",
+        "end_time": "23:00",
+        "name": "Meeting in Amsterdam"
+    },
+    {
+        "date": "2020-08-29",
+        "time": "12:00",
+        "end_time": "23:00",
+        "name": "Meeting in Amsterdam"
+    },
+    {
+        "date": "2020-08-30",
+        "time": "12:00",
+        "end_time": "23:00",
+        "name": "Meeting in Amsterdam"
+    },
+    {
+        "date": "2021-08-02",
+        "time": "20:00",
+        "end_time": "22:00",
+        "name": "Discussion on climate change"
+    }
+]
